@@ -1,24 +1,15 @@
-# Dark (Red) Seafile
+# Dark (Purple) theme for Seafile 12
 
-A dark CSS theme for [Seafile](https://seafile.com) with a customizable primary color --- red by default.
+A dark CSS theme for [Seafile](https://seafile.com) with a customizable primary color --- purple by default.
 
 ## Preview
 
 ![Image of main view](demo/main.png)
-
-[Click here for more more images.](demo)
+![Image of markdown view](demo/markdown-editor.png)
 
 ## Usage
 
-### Get the compiled CSS
+Go to `System Admin > Settings > Custom CSS`, paste the following code:
+`@import url("https://zohiu.github.io/seafile-css/css/main.css")`
 
-You can either:
-- Install [Sass](https://sass-lang.com) yourself and compile the CSS with `sass main.scss main.css`.
-- Grab the auto-compiled file from [`css/main.css`](css/main.css).
-
-### Configure your Seafile instance
-
-Go to `System Admin > Settings > Custom CSS`, paste the compiled CSS code in and confirm.
-
-After reloading the page, your Seafile should've gotten a visual upgrade :)
-
+Alternatively, go to https://zohiu.github.io/seafile-css/css/main.css directly and copy-paste the entire text into the custom css field.
