@@ -10,6 +10,8 @@ A dark CSS theme for [Seafile](https://seafile.com) with a customizable primary 
 ## Usage
 
 Go to `System Admin > Settings > Custom CSS`, paste the following code:
-`@import url("https://zohiu.github.io/seafile-css/css/main.css")`
+```css
+@import url("https://zohiu.github.io/seafile-css/css/main.css")
+```
 
 Alternatively, go to https://zohiu.github.io/seafile-css/css/main.css directly and copy-paste the entire text into the custom css field.
